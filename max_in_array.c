@@ -1,7 +1,7 @@
 #include <stdio.h>
 
 int main() {
-    int n, i, max;
+    int n, i, max; // Déclaration des variables
 
     // Lire le nombre d'éléments
  
@@ -15,7 +15,7 @@ int main() {
         scanf("%d", &tableau[i]);
     }
 
-    // Supposons que le premier élément est le maximum
+    // On suppose que le premier élément est le maximum
     max = tableau[0];
 
     // Recherche du maximum
